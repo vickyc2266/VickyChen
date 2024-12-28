@@ -13,7 +13,7 @@ function VideoPlayer({ src, title }) {
                 width="100%"
                 height="100%"
                 controls
-                className="react-player" // Apply the CSS class to the ReactPlayer
+                className="react-player" 
             />
         </div>
     );

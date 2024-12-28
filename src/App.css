@@ -1,77 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-
-/* 
-.App {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
-.App-header {
-  background-color: #282c34;
-  color: white;
-  padding: 20px;
-}
-
-.App-header h1 {
-  font-size: 2.5em;
-  margin: 0;
-}
-
-main {
-  padding: 20px;
-}
-
-.App-footer {
-  background-color: #222;
-  color: white;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-size: 0.9em;
-}
- */
-
-
 
 
 /* Timeline Styles */
@@ -113,7 +39,6 @@ main {
   background: #0056b3;
 }
 
-/* Project Details Styles */
 .project-details {
   text-align: center;
   padding: 20px;
