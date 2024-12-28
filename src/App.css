@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,91 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* 
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.App-header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+}
+ */
+
+
+
+
+/* Timeline Styles */
+.Projects {
+  text-align: center;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.timeline-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+  width: 80%;
+  text-align: left;
+}
+
+.timeline-item h3 {
+  margin: 0;
+}
+
+.demo-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.demo-button:hover {
+  background: #0056b3;
+}
+
+/* Project Details Styles */
+.project-details {
+  text-align: center;
+  padding: 20px;
+}
+
+.project-details h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
 }

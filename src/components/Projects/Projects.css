@@ -1,28 +1,67 @@
-/* Projects.css */
-
-.video-container {
-    width: 800px; /* Wider container for a more rectangular shape */
-    height: 450px; /* Height to match a 16:9 aspect ratio */
-    margin: 0 auto; /* Center the video horizontally */
-    background-color: black; /* Background color around the video */
-    padding: 10px; /* Padding inside the container */
-    border-radius: 10px; /* Rounded corners for a smoother look */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Projects Container */
+.Projects {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Timeline Layout */
+  .timeline {
     position: relative;
-}
-
-.video-container h2 {
-    color: white; /* Title color */
-    position: absolute; /* Position title over the video */
-    top: 10px; /* Position title near the top */
-    left: 50%;
-    transform: translateX(-50%); /* Center the title horizontally */
-    z-index: 10; /* Ensure title is above the video */
-}
-
-.react-player {
-    border-radius: 10px; /* Match video with container's rounded corners */
-    object-fit: contain; /* Ensure the video maintains its aspect ratio */
-}
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align timeline content to the left */
+  }
+  
+  /* Vertical Line */
+  .vertical-line {
+    position: absolute;
+    left: 0; /* Move the line to the very left of the container */
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #007bff;
+    transform: translateX(0); /* Remove centering offset */
+  }
+  
+  /* Timeline Item */
+  .timeline-item {
+    position: relative;
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px; /* Add space to the left for the line */
+  }
+  
+  
+  /* Project Content */
+  .project-content {
+    padding: 10px 20px;
+    text-align: left;
+    max-width: 400px;
+  }
+  
+  /* Align Content to the Right of the Line */
+  .project-content {
+    position: relative;
+    margin-left: 60px; /* Spacing from the vertical line */
+  }
+  
+  /* Button Styling */
+  .demo-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .demo-button:hover {
+    background: #0056b3;
+  }
+  
