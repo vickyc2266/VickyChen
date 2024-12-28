@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import ReactPlayer from 'react-player';
 import './Projects.css'; // Import the CSS file
